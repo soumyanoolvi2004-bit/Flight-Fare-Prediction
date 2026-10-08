@@ -1,0 +1,40 @@
+# Flight Fare Prediction
+
+A Machine Learning regression project that predicts flight ticket prices using flight details such as airline, source, destination, route, journey date, departure and arrival times, duration, and number of stops.
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* XGBoost
+* Jupyter Notebook
+
+### Project Workflow
+
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature engineering
+* Regression model development
+* Hyperparameter tuning
+* Model comparison using MAE, RMSE, and R²
+* Prediction error analysis
+
+### Models Evaluated
+
+* Linear Regression
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+* XGBoost
+
+### Final Model
+
+The **Tuned MAE-XGBoost** model was selected as the final model based on its benchmark performance.
+
+**MAE:** ₹518.80
+**RMSE:** ₹1,351.17
+**R²:** 0.9124
